@@ -1,0 +1,18 @@
+1. a. Verify a BT is a BST, (as part of answer) do an in-order traversal
+   b. Game of creating smaller words out of a bigger word, where unique words earn players points (scored like Boggle/Scategories)
+      i.  Given the bigger word and a list of the lists of each players' words, return each player's score
+      ii. How can I design an algorithm so that I can quickly generate words given a larger word? (Open ended, preprocessing can be slow)
+
+2. a. Car parking in spaces, find best spot with other cars/edge furthest away.
+      (Represent as binary list where 0 is open spot, e.g. [0,0,1,0,0,0,0,0] best spot index 5)
+   b. How can we write something that each time a new car comes in, a new best spot is quickly returned (better than the N time of prev alg)
+
+3. a. How would you test function "is_palindrome"?
+   b. Given a list of coordinate grids, find the smallest rectangle area if exists
+
+4. Design a matching algorithm given two systems of information so that records can be combined from the both of them,
+     where sys1 gives obj with [Name, Address], and sys2 gives obj with [Name, Purchases, etc.]. New table should include
+     some sort of confidence score on the Name match
+
+5. a. I forget..?
+   b. Given a sudoku with one incorrect number (still 1-9), give x,y of incorrect
